@@ -1,0 +1,19 @@
+package primeiroprograma;
+import java.util.Scanner;
+public class Teste {
+
+	public static void main(String[] args) {
+		float numero, numero2;
+		Scanner sc = new Scanner(System.in); 
+		System.out.println("digite um numero: ");
+		numero = sc.nextFloat();
+		System.out.println("digite outro numero: ");
+		numero2 = sc.nextFloat();
+		System.out.println(numero * numero2);
+		System.out.println(numero / numero2);
+		System.out.println(numero + numero2);
+		System.out.println(numero - numero2);
+
+	}
+
+}
